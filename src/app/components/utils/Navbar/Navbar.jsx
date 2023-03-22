@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Valuna from "../../../assets/imgs/logo/Valuna.png";
 
 const Navbar = () => {
@@ -38,39 +39,43 @@ const Navbar = () => {
             id="example-navbar-danger"
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-              <li className="nav-item ">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-900 hover:bg-blue-500 hover:rounded-lg hover:text-white"
-                  href="#pablo"
-                >
-                  <span className="text-md lg:text-lg  ">Inicio</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-900 hover:bg-blue-500 hover:rounded-lg hover:text-white"
-                  href="#pablo"
-                >
-                  <span className="text-md lg:text-lg  ">NOSOTROS</span>
-                </a>
-              </li>
-
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-900 hover:bg-blue-500 hover:rounded-lg hover:text-white"
-                  href="#pablo"
-                >
-                  <span className="text-md lg:text-lg  ">Servicios</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-900 hover:bg-blue-500 hover:rounded-lg hover:text-white"
-                  href="#pablo"
-                >
-                  <span className=" text-md lg:text-lg  ">Contacto</span>
-                </a>
-              </li>
+              <Link to="/">
+                <li className="nav-item ">
+                  <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-900 hover:bg-blue-500 hover:rounded-lg hover:text-white">
+                    <span className="text-md lg:text-lg  ">Inicio</span>
+                  </a>
+                </li>
+              </Link>
+              <Link to="/nosotros">
+                <li className="nav-item">
+                  <a
+                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-900 hover:bg-blue-500 hover:rounded-lg hover:text-white"
+                    href="#pablo"
+                  >
+                    <span className="text-md lg:text-lg  ">NOSOTROS</span>
+                  </a>
+                </li>
+              </Link>
+              <Link to="/servicios">
+                <li className="nav-item">
+                  <a
+                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-900 hover:bg-blue-500 hover:rounded-lg hover:text-white"
+                    href="#pablo"
+                  >
+                    <span className="text-md lg:text-lg  ">Servicios</span>
+                  </a>
+                </li>
+              </Link>
+              <Link to="/contacto">
+                <li className="nav-item">
+                  <a
+                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-900 hover:bg-blue-500 hover:rounded-lg hover:text-white"
+                    href="#pablo"
+                  >
+                    <span className=" text-md lg:text-lg  ">Contacto</span>
+                  </a>
+                </li>
+              </Link>
             </ul>
           </div>
         </div>
