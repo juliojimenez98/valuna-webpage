@@ -11,7 +11,7 @@ const Navbar = () => {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <img className="h-14 w-16 md:h-20 md:w-24" src={Valuna} alt="" />
             <button
-              className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              className="text-white  cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
@@ -34,7 +34,7 @@ const Navbar = () => {
           <div
             className={
               "lg:flex flex-grow items-center" +
-              (navbarOpen ? " flex" : " hidden")
+              (navbarOpen ? " flex fade-enter fade-enter-active" : " hidden")
             }
             id="example-navbar-danger"
           >
