@@ -15,16 +15,19 @@ const NosotrosComponent = () => {
                 En Valunas Construcciones estamos para ayudarte.
               </h2>
               <p class="mt-6 text-gray-800">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
-                omnis voluptatem accusantium nemo perspiciatis delectus atque
-                autem! Voluptatum tenetur beatae unde aperiam, repellat expedita
-                consequatur! Officiis id consequatur atque doloremque!
+                Somos una pequeña empresa que brindamos servicios de contrucción
+                de alta calidad, nos hemos ganado la confianza de nuestros
+                clientes por el profesionalismo y el detalle en cada uno de
+                nuestros servicios.
               </p>
               <p class="mt-4 text-gray-800">
                 {" "}
-                Nobis minus voluptatibus pariatur dignissimos libero quaerat
-                iure expedita at? Asperiores nemo possimus nesciunt dicta veniam
-                aspernatur quam mollitia.
+                Nos esforzamos por utilizar los mejores materiales y las mejores
+                técnicas de construcción, y trabajamos arduamente para completar
+                cada proyecto en el tiempo y presupuesto acordados. Estamos
+                comprometidos con la satisfacción total de nuestros clientes, y
+                trabajamos duro para garantizar que cada servicio de
+                construcción se ajuste a sus necesidades y expectativa.
               </p>
             </div>
           </div>
