@@ -33,7 +33,7 @@ const CardContacto = () => {
                           clipRule="evenodd"
                         />
                       </svg>
-                      +569 41687806
+                      +569 37409813
                     </li>
                     <div className="w-full">
                       <button
@@ -60,7 +60,7 @@ const CardContacto = () => {
                         <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
                         <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
                       </svg>
-                      Correo@correo.com
+                      rcvalenciav@gmail.com
                     </li>
                   </ul>
                 </div>
@@ -81,7 +81,7 @@ const CardContacto = () => {
                           clipRule="evenodd"
                         />
                       </svg>
-                      Galvarino #1009, Renca.
+                      Uno sur 3915, Renca.
                     </li>
                   </ul>
                 </div>
@@ -89,10 +89,10 @@ const CardContacto = () => {
             </div>
             <div class="w-full rounded-lg flex flex-col justify-center items-center">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1177.466805723657!2d-70.69350179742823!3d-33.41336074453748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c41f74650eeb%3A0x210931a7588719c5!2sGalvarino%201009%2C%20Renca%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1679661928657&maptype=satellite"
-                loading="lazy"
-                className="w-full h-80 md:h-128 rounded-lg p-0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1665.362416661214!2d-70.69979917388784!3d-33.4043423873159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c6a408387537%3A0xf479d4b149986005!2sUno%20Sur%203915%2C%20Renca%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1679933485081!5m2!1ses-419!2scl"
                 allowFullScreen
+                className="w-full h-80 md:h-128 rounded-lg p-0"
+                loading="lazy"
               ></iframe>
             </div>
           </div>
