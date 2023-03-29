@@ -2,7 +2,7 @@ import React from "react";
 
 const CardContacto = () => {
   function openWhatsAppChat() {
-    window.open("https://wa.me/56941687806");
+    window.open("https://wa.me/56937409813");
   }
   return (
     <>
