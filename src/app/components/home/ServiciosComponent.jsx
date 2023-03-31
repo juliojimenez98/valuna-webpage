@@ -7,6 +7,9 @@ import EstructurasMetalicas from "../../assets/imgs/servicios/cards/EstructurasM
 import Ceramicas from "../../assets/imgs/servicios/cards/Ceramicas.jpg";
 import Galpones from "../../assets/imgs/servicios/cards/Galpones.jpg";
 import NoImagen from "../../assets/imgs/servicios/cards/NoImagen.png";
+import Techumbres from "../../assets/imgs/servicios/cards/Techumbres.jpg";
+import Radieres from "../../assets/imgs/servicios/cards/Radieres.jpg";
+import Cobertizos from "../../assets/imgs/servicios/cards/Cobertizos.jpg";
 
 const ServiciosComponent = () => {
   const cardData = [
@@ -27,7 +30,7 @@ const ServiciosComponent = () => {
       nombre: "Estructuras Metálicas",
     },
     {
-      image: NoImagen,
+      image: Radieres,
       nombre: "Radieres",
     },
     {
@@ -39,7 +42,7 @@ const ServiciosComponent = () => {
       nombre: "Galpones",
     },
     {
-      image: NoImagen,
+      image: Ampliacion1,
       nombre: "Segundos Pisos",
     },
     {
@@ -51,11 +54,11 @@ const ServiciosComponent = () => {
       nombre: "Pinturas",
     },
     {
-      image: NoImagen,
+      image: Cobertizos,
       nombre: "Cobertizos",
     },
     {
-      image: NoImagen,
+      image: Techumbres,
       nombre: "Techumbres",
     },
   ];
