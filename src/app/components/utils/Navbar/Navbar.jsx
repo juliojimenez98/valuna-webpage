@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Valuna from "../../../assets/imgs/logo/Valuna.png";
 
 const Navbar = () => {
@@ -39,43 +39,66 @@ const Navbar = () => {
             id="example-navbar-danger"
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-              <Link to="/">
-                <li className="nav-item ">
-                  <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-900 hover:bg-blue-500 hover:rounded-lg hover:text-white">
+              <NavLink
+                exact
+                to="/"
+                className={({ isActive }) =>
+                  `px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-900 hover:bg-blue-500 hover:rounded-lg hover:text-white ${
+                    isActive ? "bg-blue-500 rounded-lg text-white" : ""
+                  }`
+                }
+              >
+                <li className="nav-item">
+                  <a className="">
                     <span className="text-md lg:text-lg  ">Inicio</span>
                   </a>
                 </li>
-              </Link>
-              <Link to="/nosotros">
+              </NavLink>
+              <NavLink
+                exact
+                to="/nosotros"
+                className={({ isActive }) =>
+                  `px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-900 hover:bg-blue-500 hover:rounded-lg hover:text-white ${
+                    isActive ? "bg-blue-500 rounded-lg text-white" : ""
+                  }`
+                }
+              >
                 <li className="nav-item">
-                  <a
-                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-900 hover:bg-blue-500 hover:rounded-lg hover:text-white"
-                    href="#pablo"
-                  >
+                  <a className="">
                     <span className="text-md lg:text-lg  ">NOSOTROS</span>
                   </a>
                 </li>
-              </Link>
-              <Link to="/servicios">
+              </NavLink>
+              <NavLink
+                exact
+                to="/servicios"
+                className={({ isActive }) =>
+                  `px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-900 hover:bg-blue-500 hover:rounded-lg hover:text-white ${
+                    isActive ? "bg-blue-500 rounded-lg text-white" : ""
+                  }`
+                }
+              >
                 <li className="nav-item">
-                  <a
-                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-900 hover:bg-blue-500 hover:rounded-lg hover:text-white"
-                    href="#pablo"
-                  >
-                    <span className="text-md lg:text-lg  ">Servicios</span>
+                  <a className="">
+                    <span className="text-md lg:text-lg  ">SERVICIOS</span>
                   </a>
                 </li>
-              </Link>
-              <Link to="/contacto">
+              </NavLink>
+              <NavLink
+                exact
+                to="/contacto"
+                className={({ isActive }) =>
+                  `px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-900 hover:bg-blue-500 hover:rounded-lg hover:text-white ${
+                    isActive ? "bg-blue-500 rounded-lg text-white" : ""
+                  }`
+                }
+              >
                 <li className="nav-item">
-                  <a
-                    className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-900 hover:bg-blue-500 hover:rounded-lg hover:text-white"
-                    href="#pablo"
-                  >
-                    <span className=" text-md lg:text-lg  ">Contacto</span>
+                  <a className="">
+                    <span className="text-md lg:text-lg  ">Contacto</span>
                   </a>
                 </li>
-              </Link>
+              </NavLink>
             </ul>
           </div>
         </div>

@@ -80,7 +80,7 @@ const CardDataHome = () => {
                     clip-rule="evenodd"
                   />
                 </svg>
-                Direccion #432
+                Uno sur 3915, Renca.
               </li>
             </ul>
           </div>

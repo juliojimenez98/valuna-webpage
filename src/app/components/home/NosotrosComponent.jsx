@@ -15,10 +15,10 @@ const NosotrosComponent = () => {
                 En Valunas Construcciones estamos para ayudarte.
               </h2>
               <p class="mt-6 text-gray-800">
-                Somos una pequeña empresa que brindamos servicios de contrucción
-                de alta calidad, nos hemos ganado la confianza de nuestros
-                clientes por el profesionalismo y el detalle en cada uno de
-                nuestros servicios.
+                Somos una pequeña empresa que brindamos servicios de
+                construcción de alta calidad, nos hemos ganado la confianza de
+                nuestros clientes por el profesionalismo y el detalle en cada
+                uno de nuestros servicios.
               </p>
               <p class="mt-4 text-gray-800">
                 {" "}
@@ -27,7 +27,7 @@ const NosotrosComponent = () => {
                 cada proyecto en el tiempo y presupuesto acordados. Estamos
                 comprometidos con la satisfacción total de nuestros clientes, y
                 trabajamos duro para garantizar que cada servicio de
-                construcción se ajuste a sus necesidades y expectativa.
+                construcción se ajuste a sus necesidades y expectativas.
               </p>
             </div>
           </div>
