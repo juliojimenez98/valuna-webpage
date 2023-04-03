@@ -34,7 +34,9 @@ const NosotrosComponent = () => {
           </div>
         </div>
       </div>
-      <Carousel />
+      <div className="pb-10">
+        <Carousel />
+      </div>
     </>
   );
 };

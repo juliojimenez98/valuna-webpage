@@ -12,7 +12,9 @@ const HomeComponent = () => {
       <section className="hidden md:block">
         <CardFotosHome />
       </section>
-      <CardDataHome />
+      <div className="pb-10">
+        <CardDataHome />
+      </div>
     </>
   );
 };

@@ -10,6 +10,9 @@ import NoImagen from "../../assets/imgs/servicios/cards/NoImagen.png";
 import Techumbres from "../../assets/imgs/servicios/cards/Techumbres.jpg";
 import Radieres from "../../assets/imgs/servicios/cards/Radieres.jpg";
 import Cobertizos from "../../assets/imgs/servicios/cards/Cobertizos.jpg";
+import Pinturas from "../../assets/imgs/servicios/cards/Pinturas.jpg";
+import Mueblerias from "../../assets/imgs/servicios/cards/Mueblerias.jpg";
+import Gasfiteria from "../../assets/imgs/servicios/cards/Gasfiteria.jpg";
 
 const ServiciosComponent = () => {
   const cardData = [
@@ -34,8 +37,8 @@ const ServiciosComponent = () => {
       nombre: "Radieres",
     },
     {
-      image: NoImagen,
-      nombre: "Fosas Sépticas",
+      image: Mueblerias,
+      nombre: "Mueblerías",
     },
     {
       image: Galpones,
@@ -46,11 +49,11 @@ const ServiciosComponent = () => {
       nombre: "Segundos Pisos",
     },
     {
-      image: NoImagen,
+      image: Gasfiteria,
       nombre: "Gasfiterías",
     },
     {
-      image: NoImagen,
+      image: Pinturas,
       nombre: "Pinturas",
     },
     {
