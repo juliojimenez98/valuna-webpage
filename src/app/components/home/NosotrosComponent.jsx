@@ -1,5 +1,6 @@
 import React from "react";
 import Valuna from "../../assets/imgs/logo/Valuna.png";
+import Carousel from "../utils/Carousel/Carousel";
 
 const NosotrosComponent = () => {
   return (
@@ -33,6 +34,7 @@ const NosotrosComponent = () => {
           </div>
         </div>
       </div>
+      <Carousel />
     </>
   );
 };
