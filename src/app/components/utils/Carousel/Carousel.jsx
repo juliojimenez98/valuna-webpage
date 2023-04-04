@@ -2,23 +2,24 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Quincho2 from "../../../assets/imgs/carousel/Quincho2.jpg";
-import Ducha from "../../../assets/imgs/carousel/Ducha.jpg";
+import CasaCostado from "../../../assets/imgs/carousel/CasaCostado.jpg";
 import Lavamanos from "../../../assets/imgs/carousel/Lavamanos.jpg";
+import Bidon from "../../../assets/imgs/carousel/Bidon.jpg";
 import Tragaluz from "../../../assets/imgs/carousel/Tragaluz.jpg";
 import Desague from "../../../assets/imgs/carousel/Desague.jpg";
 import Ampliacion2 from "../../../assets/imgs/carousel/Ampliacion2.jpg";
+import CasaTerraza from "../../../assets/imgs/carousel/CasaTerraza.jpg";
 import Gasfiteria2 from "../../../assets/imgs/carousel/Gasfiteria2.jpg";
 import EntradaCasa from "../../../assets/imgs/carousel/EntradaCasa.jpg";
+import CeramicaMuro from "../../../assets/imgs/carousel/CeramicaMuro.jpg";
 import Escalera from "../../../assets/imgs/carousel/Escalera.jpg";
 import InstalandoCeramicas from "../../../assets/imgs/carousel/InstalandoCeramicas.jpg";
 import Panel from "../../../assets/imgs/carousel/Panel.jpg";
-import Quincho3 from "../../../assets/imgs/carousel/Quincho3.jpg";
 import Urinarios from "../../../assets/imgs/carousel/Urinarios.jpg";
 import Baño from "../../../assets/imgs/carousel/Baño.jpg";
 
 const settings = {
-  arrows: true, // muestra las flechas de navegación
+  arrows: true,
   dots: true,
   infinite: true, // permite navegar infinitamente por las diapositivas
   speed: 500, // velocidad de transición entre diapositivas en milisegundos
@@ -32,6 +33,7 @@ const settings = {
   responsive: [
     {
       // Configuración para pantallas grandes (md y superiores)
+      arrows: false,
       breakpoint: 768,
       settings: {
         slidesToShow: 1,
@@ -45,12 +47,8 @@ const settings = {
 const Carousel = () => {
   const imagenes = [
     {
-      nombre: "Quincho2",
-      ruta: Quincho2,
-    },
-    {
-      nombre: "Ducha",
-      ruta: Ducha,
+      nombre: "Casa Costado",
+      ruta: CasaCostado,
     },
     {
       nombre: "Lavamanos",
@@ -73,8 +71,16 @@ const Carousel = () => {
       ruta: Gasfiteria2,
     },
     {
+      nombre: "Bidon",
+      ruta: Bidon,
+    },
+    {
       nombre: "EntradaCasa",
       ruta: EntradaCasa,
+    },
+    {
+      nombre: "CasaTerraza",
+      ruta: CasaTerraza,
     },
     {
       nombre: "Escalera",
@@ -89,10 +95,6 @@ const Carousel = () => {
       ruta: Panel,
     },
     {
-      nombre: "Quincho3",
-      ruta: Quincho3,
-    },
-    {
       nombre: "Urinarios",
       ruta: Urinarios,
     },
@@ -100,12 +102,16 @@ const Carousel = () => {
       nombre: "Baño",
       ruta: Baño,
     },
+    {
+      nombre: "CeramicaMuro",
+      ruta: CeramicaMuro,
+    },
   ];
 
   return (
     <div className="mx-auto w-full md:w-1/2">
       <h1 className="text-3xl my-10 font-semibold text-center text-black capitalize lg:text-4xl ">
-        Trabajos Nuestros
+        Nuestros Trabajos
       </h1>
       <Slider {...settings}>
         {imagenes.map((imagen, index) => (
