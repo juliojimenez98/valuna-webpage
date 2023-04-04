@@ -20,7 +20,7 @@ import Baño from "../../../assets/imgs/carousel/Baño.jpg";
 
 const settings = {
   arrows: true,
-  dots: true,
+  dots: false,
   infinite: true, // permite navegar infinitamente por las diapositivas
   speed: 500, // velocidad de transición entre diapositivas en milisegundos
   slidesToShow: 1, // número de diapositivas a mostrar a la vez
