@@ -49,18 +49,18 @@ const CardContacto = () => {
               </div>
               <div className="flex flex-col md:h-196 border-b-2">
                 <div className="flex items-center justify-center">
-                  <ul className="p-2 m-2 md:p-4 md:mt-14">
-                    <li className="text-sm md:text-xl uppercase font-semibold md:font-medium my-2 w-full inline-flex">
+                  <ul className="p-2 m-2 md:p-6 md:mt-14">
+                    <li className="text-xs md:text-lg uppercase font-semibold md:font-medium my-2  w-full inline-flex">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24"
                         fill="currentColor"
-                        class="mr-4 w-6 h-6"
+                        class="mr-1 w-5 h-5 md:mr-2 md:w-6 md:h-6"
                       >
                         <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
                         <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
                       </svg>
-                      rcvalenciav@gmail.com
+                      valunasconstrucciones@gmail.com
                     </li>
                   </ul>
                 </div>
