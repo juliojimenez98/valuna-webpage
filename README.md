@@ -6,5 +6,4 @@ Este Proyecto se creó para una pequeña empresa de construcción.
 
 El link oficial es:
 
-### `npm start`
-[https://valunas.cl]
+https://valunas.cl
