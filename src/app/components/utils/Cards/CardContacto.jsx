@@ -2,7 +2,7 @@ import React from "react";
 
 const CardContacto = () => {
   function openWhatsAppChat() {
-    window.open("https://wa.me/56937409813");
+    window.open("https://wa.me/56942834153");
   }
   return (
     <>
@@ -33,7 +33,7 @@ const CardContacto = () => {
                           clipRule="evenodd"
                         />
                       </svg>
-                      +569 37409813
+                      +569 42834153
                     </li>
                     <div className="w-full">
                       <button
