@@ -53,7 +53,7 @@ const CardDataHome = () => {
                     clip-rule="evenodd"
                   />
                 </svg>
-                +569 37409813
+                +569 42834153
               </li>
               <li className="text-sm md:text-md uppercase font-semibold md:font-medium my-2 w-full inline-flex">
                 <svg
