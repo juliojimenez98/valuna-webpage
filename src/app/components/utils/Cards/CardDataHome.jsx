@@ -80,7 +80,7 @@ const CardDataHome = () => {
                     clip-rule="evenodd"
                   />
                 </svg>
-                Uno sur 3915, Renca.
+                Avenida flor de lis 1735, Renca.
               </li>
             </ul>
           </div>

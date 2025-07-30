@@ -81,7 +81,7 @@ const CardContacto = () => {
                           clipRule="evenodd"
                         />
                       </svg>
-                      Uno sur 3915, Renca.
+                      Avenida flor de lis 1735, Renca.
                     </li>
                   </ul>
                 </div>
@@ -89,7 +89,7 @@ const CardContacto = () => {
             </div>
             <div class="w-full rounded-lg flex flex-col justify-center items-center">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1665.362416661214!2d-70.69979917388784!3d-33.4043423873159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c6a408387537%3A0xf479d4b149986005!2sUno%20Sur%203915%2C%20Renca%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1679933485081!5m2!1ses-419!2scl"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6662.04181045943!2d-70.7513335!3d-33.3966188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c112b9e8346f%3A0x507dd10fb5878a39!2sAv.%20Flor%20de%20Lis%201735%2C%20Renca%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1753834292860!5m2!1ses-419!2scl"
                 allowFullScreen
                 className="w-full h-80 md:h-128 rounded-lg p-0"
                 loading="lazy"
